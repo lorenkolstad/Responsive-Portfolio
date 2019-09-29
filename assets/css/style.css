@@ -28,6 +28,20 @@ body {
   font-weight: 800;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 40px auto;
+}
+
 .box {
   position: relative;
   max-width: 600px;
@@ -342,6 +356,63 @@ input[type=submit] {
   clear: both;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px){
+  body {
+    background: rgba(190,83,11,.5);
+  }
+  .wrapper {
+    width: 100%;
+    background: rgba(190,83,11,.5);
+  }
+  .box1 {
+    width: 100%;
+    margin-top: 40px;
+    float: left;
+  }
+  .box2 {
+    width: 100%;
+    margin-top: 40px;
+    float: right;
+  }
+  .box3 {
+    width: 100%;
+    margin-top: 40px;
+    float: left;
+  }
+  .box4 {
+    width: 100%;
+    margin-top: 40px;
+    float: right;
+  }
+  .box5 {
+    width: 100%;
+    margin-top: 40px;
+    float: left;
+  }
+
+  .footer {
+    position: sticky;
+  }
+}
+
+
+
+
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
@@ -371,3 +442,4 @@ input[type=submit] {
     width: 100%;
   }
 }
+
